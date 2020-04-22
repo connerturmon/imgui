@@ -1,0 +1,95 @@
+site_name: Dear ImGui
+theme: readthedocs
+
+# Note that docs/ is not needed since mkdocs automatically
+# treats docs/ as the root directory for .md files.
+nav:
+  - Introduction: source/index.md
+  - API:
+    - Data Structures:
+      - Overview: source/data-structures/Overview.md
+      - ImDrawChannel: source/data-structures/ImDrawChannel.md
+      - ImDrawCmd: source/data-structures/ImDrawCmd.md
+      - ImDrawData: source/data-structures/ImDrawData.md
+      - ImDrawList: source/data-structures/ImDrawList.md
+      - ImDrawListSharedData: source/data-structures/ImDrawListSharedData.md
+      - ImDrawListSplitter: source/data-structures/ImDrawListSplitter.md
+      - ImDrawVert: source/data-structures/ImDrawVert.md
+      - ImFont: source/data-structures/ImFont.md
+      - ImFontAtlas: source/data-structures/ImFontAtlas.md
+      - ImFontConfig: source/data-structures/ImFontConfig.md
+      - ImFontGlyph: source/data-structures/ImFontGlyph.md
+      - ImFontGlyphRangesBuilder: source/data-structures/ImFontGlyphRangesBuilder.md
+      - ImColor: source/data-structures/ImColor.md
+      - ImGuiContext: source/data-structures/ImGuiContext.md
+      - ImGuiIO: source/data-structures/ImGuiIO.md
+      - ImGuiInputTextCallbackData: source/data-structures/ImGuiInputTextCallbackData.md
+      - ImGuiListClipper: source/data-structures/ImGuiListClipper.md
+      - ImGuiOnceUponAFrame: source/data-structures/ImGuiOnceUponAFrame.md
+      - ImGuiPayload: source/data-structures/ImGuiPayload.md
+      - ImGuiSizeCallbackData: source/data-structures/ImGuiSizeCallbackData.md
+      - ImGuiStorage: source/data-structures/ImGuiStorage.md
+      - ImGuiStyle: source/data-structures/ImGuiStyle.md
+      - ImGuiTextBuffer: source/data-structures/ImGuiTextBuffer.md
+      - ImGuiTextFilter: source/data-structures/ImGuiTextFilter.md
+      
+    - Enumerations:
+      - Overview: source/enumerations/Overview.md
+      - ImGuiCol: source/enumerations/ImGuiCol.md
+      - ImGuiCond: source/enumerations/ImGuiCond.md
+      - ImGuiDataType: source/enumerations/ImGuiDataType.md
+      - ImGuiDir: source/enumerations/ImGuiDir.md
+      - ImGuiKey: source/enumerations/ImGuiKey.md
+      - ImGuiNavInput: source/enumerations/ImGuiNavInput.md
+      - ImGuiMouseButton: source/enumerations/ImGuiMouseButton.md
+      - ImGuiMouseCursor: source/enumerations/ImGuiMouseCursor.md
+      - ImGuiStyleVar: source/enumerations/ImGuiStyleVar.md
+      - ImDrawCornerFlags: source/enumerations/ImDrawCornerFlags.md
+      - ImDrawListFlags: source/enumerations/ImDrawListFlags.md
+      - ImFontAtlasFlags: source/enumerations/ImFontAtlasFlags.md
+      - ImGuiBackendFlags: source/enumerations/ImGuiBackendFlags.md
+      - ImGuiColorEditFlags: source/enumerations/ImGuiColorEditFlags.md
+      - ImGuiConfigFlags: source/enumerations/ImGuiConfigFlags.md
+      - ImGuiComboFlags: source/enumerations/ImGuiComboFlags.md
+      - ImGuiDragDropFlags: source/enumerations/ImGuiDragDropFlags.md
+      - ImGuiFocusedFlags: source/enumerations/ImGuiFocusedFlags.md
+      - ImGuiHoveredFlags: source/enumerations/ImGuiHoveredFlags.md
+      - ImGuiInputTextFlags: source/enumerations/ImGuiInputTextFlags.md
+      - ImGuiKeyModFlags: source/enumerations/ImGuiKeyModFlags.md
+      - ImGuiSelectableFlags: source/enumerations/ImGuiSelectableFlags.md
+      - ImGuiTabBarFlags: source/enumerations/ImGuiTabBarFlags.md
+      - ImGuiTabItemFlags: source/enumerations/ImGuiTabItemFlags.md
+      - ImGuiTreeNodeFlags: source/enumerations/ImGuiTreeNodeFlags.md
+      - ImGuiWindowFlags: source/enumerations/ImGuiWindowFlags.md
+
+    - Data Types:
+      - Vectors: source/data-types/Vectors.md
+      - Basic: source/data-types/Basic.md
+      - Misc: source/data-types/Misc.md
+    
+    - Functions:
+      - Context:
+        - CreateContext(): source/functions/context/CreateContext.md
+        - DestroyContext(): source/functions/context/DestroyContext.md
+        - GetCurrentContext(): source/functions/context/GetCurrentContext.md
+        - SetCurrentContext(): source/functions/context/SetCurrentContext.md
+      - Main:
+        - GetIO(): source/functions/context/SetCurrentContext.md
+        - GetStyle(): source/functions/context/SetCurrentContext.md
+        - NewFrame(): source/functions/context/SetCurrentContext.md
+        - EndFrame(): source/functions/context/SetCurrentContext.md
+        - Render(): source/functions/context/SetCurrentContext.md
+        - GetDrawData(): source/functions/context/SetCurrentContext.md
+      - Demo, Debug, & Information:
+        - ShowDemoWindow(): source/functions/context/SetCurrentContext.md
+        - ShowAboutWindow(): source/functions/context/SetCurrentContext.md
+        - ShowMetricsWindow(): source/functions/context/SetCurrentContext.md
+        - ShowStyleEditor(): source/functions/context/SetCurrentContext.md
+        - ShowStyleSelector(): source/functions/context/SetCurrentContext.md
+        - ShowFontSelector(): source/functions/context/SetCurrentContext.md
+        - ShowUserGuide(): source/functions/context/SetCurrentContext.md
+        - GetVersion(): source/functions/context/SetCurrentContext.md
+
+  - Additional:
+    - About: source/about.md
+    - Contact: source/contact.md
